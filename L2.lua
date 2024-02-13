@@ -2,13 +2,6 @@ while not game:GetService("RunService"):IsRunning() do task.wait() end
 
 repeat task.wait() until game:IsLoaded()
 
-repeat task.wait() until game:IsLoaded()
-if game.PlaceId == 13775256536 then
-    repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("collection"):FindFirstChild("grid"):FindFirstChild("List"):FindFirstChild("Outer"):FindFirstChild("UnitFrames")
-else
-    repeat task.wait() until game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name)
-end
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2Swiftz/UI-Library/main/Libraries/Linoria%20-%20Example.lua"))()
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
