@@ -76,5 +76,5 @@ w.DescendantAdded:Connect(function(v)
 end)
 else
     local RunService = game:GetService("RunService")
-    RunService:Set3dRenderingEnabled(true)
+    RunService:Set3dRenderingEnabled(false)
 end
