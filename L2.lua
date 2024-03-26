@@ -77,5 +77,5 @@ if game.PlaceId == 13775256536 then
     print("TEST")
 else
     local RunService = game:GetService("RunService")
-    RunService:Set3dRenderingEnabled(true)
+    RunService:Set3dRenderingEnabled(false)
 end
